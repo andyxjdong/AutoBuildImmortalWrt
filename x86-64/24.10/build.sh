@@ -38,9 +38,50 @@ PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
-# 我自己增加的
+
+################ 我自己增加的 ##################
+# poweroff tools
 PACKAGES="$PACKAGES luci-i18n-advanced-reboot-zh-cn"
 PACKAGES="$PACKAGES luci-app-advanced-reboot"
+
+# zerotier vpn
+PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
+PACKAGES="$PACKAGES luci-app-zerotier"
+PACKAGES="$PACKAGES zerotier"
+
+# iperf3 tools
+PACKAGES="$PACKAGES iperf3"
+PACKAGES="$PACKAGES libiperf3"
+
+# dig tools
+PACKAGES="$PACKAGES bind-dig"
+PACKAGES="$PACKAGES bind-libs"
+PACKAGES="$PACKAGES liburcu"
+
+# ethtool-full
+PACKAGES="$PACKAGES ethtool-full"
+
+# SmartDNS
+PACKAGES="$PACKAGES smartdns"
+PACKAGES="$PACKAGES luci-app-smartdns"
+PACKAGES="$PACKAGES luci-i18n-smartdns-zh-cn"
+
+# ddns-go
+PACKAGES="$PACKAGES luci-i18n-ddns-go-zh-cn"
+PACKAGES="$PACKAGES luci-app-ddns-go"
+PACKAGES="$PACKAGES ddns-go"
+
+# sstp client
+PACKAGES="$PACKAGES luci-proto-sstp"
+PACKAGES="$PACKAGES sstp-client"
+PACKAGES="$PACKAGES libevent2-7"
+
+#cloudflared
+PACKAGES="$PACKAGES luci-i18n-cloudflared-zh-cn"
+PACKAGES="$PACKAGES cloudflared"
+PACKAGES="$PACKAGES luci-app-cloudflared"
+
+##################################
 
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"

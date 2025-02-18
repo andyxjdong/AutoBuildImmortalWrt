@@ -37,7 +37,9 @@ PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 # 我自己增加的
-PACKAGES="$PACKAGES luci-i18n-advanced-reboot-zh-cn_git-25.035.63319-73ae2e2_all.ipk"
+PACKAGES="$PACKAGES luci-i18n-advanced-reboot-zh-cn"
+PACKAGES="$PACKAGES luci-app-advanced-reboot"
+
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
